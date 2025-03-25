@@ -5,7 +5,7 @@ pipeline {
          }
     }
     parameters {
-        booleanParam(name: "RUNèFRONTEND_TESTS", defaultValue: true)
+        booleanParam(name: "RUN_FRONTEND_TESTS", defaultValue: true)
     }
     stages {
         stage('Run Tests') {
